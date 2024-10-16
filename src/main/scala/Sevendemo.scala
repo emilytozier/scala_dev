@@ -1,11 +1,14 @@
 object Sevendemo {
   def main(args: Array[String]) = {
-    var num:BigInt=0
-    var evenOdd:String=""
     print("Enter number: ")
-    num= scala.io.StdIn.readInt()
-    evenOdd = if (num==0) "NULL" else if (num>0) "POSITIVE" else "NEGATIVE"
-    println("Number is "+evenOdd)
+    val input = scala.io.StdIn.readLine()
+    if (input.isBlank) {
+      println("Number is blank")
+    } else {
+      val bi = BigInt(input)
+      val evenOdd = if (bi == 0) "zero" else if (bi > 0) "POSITIVE" else "NEGATIVE"
+      println("Number is " + evenOdd)
+    }
   }
-
 }
+
