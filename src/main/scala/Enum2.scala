@@ -5,13 +5,15 @@ object Enum2 extends Enumeration{
   // Main Method
 
   def value1(i: WeekDay): Unit = {    
-    println(this(i.id+1))
+    if (i==Sun) {
+      println(Mon)
+    } else {println(this(i.id+1))}   
   }
 
   
   //
   def main(args: Array[String]) {
-    Enum2.value1(Mon)   
+    Enum2.value1(Tue)   
   
   }
 }

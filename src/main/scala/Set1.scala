@@ -113,19 +113,19 @@ object Set7 extends App {
 //Напишите функцию, которая принимает на вход два Map[String, Int] и возвращает новый Map, содержащий только те ключи, у которых значения равны
 // не доделан
 object Set8 extends App {
-  //  def mapList(map1: Map[String, Int], map2: Map[String, Int]): Map[String, Int] = {
-  ////    map1.filterNot.filterNot(_._2 > 0)))
-  //  }
-  //
-  //  val map1 = Map[String, Int]("one" -> 58,
-  //    "two" -> 2,
-  //    "three" -> 3)
-  //
-  //  val map2 = Map[String, Int]("one" -> -1,
-  //    "two" -> 2,
-  //    "three" -> 3,
-  //    "four" -> 4)
-  //
-  //
-  //  println(mapList(map1, map2))
+//    def mapList(map1: Map[String, Int], map2: Map[String, Int]): Map[String, Int] = {
+//  //    map1.filterNot.filterNot(_._2 > 0)))
+//    }
+//
+//    val map1 = Map[String, Int]("one" -> 58,
+//      "two" -> 2,
+//      "three" -> 3)
+//
+//    val map2 = Map[String, Int]("one" -> -1,
+//      "two" -> 2,
+//      "three" -> 3,
+//      "four" -> 4)
+//
+//
+//    println(mapList(map1, map2))
 }
