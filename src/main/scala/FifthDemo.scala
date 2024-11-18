@@ -1,3 +1,4 @@
+import java.time.LocalDate
 import scala.math.abs
 object FifthDemo {
   def main(args: Array[String]) = {
@@ -5,5 +6,9 @@ object FifthDemo {
     println(points(1,1,5,6))
     println(points(3,7,17,4))
     println(points(40,60,90,220))
+
+    val date1 = LocalDate.parse("2017-02-07")
+    val date2 = LocalDate.parse("2017-02-07")
+    println(date1.isAfter(date2))
   }
 }
