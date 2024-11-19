@@ -117,7 +117,7 @@ object Set7 extends App {
 }
 
 //Напишите функцию, которая принимает на вход два Map[String, Int] и возвращает новый Map, содержащий только те ключи, у которых значения равны
-// не доделан
+
 object Set8 extends App {
   def mapList(map1: Map[String, Int], map2: Map[String, Int]): Map[String, Int] = {
     val map3 = map1.keySet.intersect(map2.keySet)
