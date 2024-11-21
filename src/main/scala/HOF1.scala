@@ -10,15 +10,19 @@ object HOF1 extends App { //
 
 }
 
-//не доделан
+
 //Напишите функцию, которая принимает список функций и значение, а затем возвращает список результатов применения каждой функции к этому значению.
 object HOF2 extends App {
-  //  val toPowerOfTwo = (x: Int) => x * x
-  //  val toPowerOfThree = (x: Int) => x * x * x
-  //
-  //  def toPower(x: Int, f: List [Int => Int]): Int = x => f(x))
-  //
-  //  println(toPower(2, List[toPowerOfTwo, toPowerOfThree]))
+
+    val f = (x: Int) => x + 34
+    val g = (x: Int) => x * 2
+    val l = List(f, g)
+
+    def h21(a: Int, l: List[Int => Int]): List[Int] = {
+      for (i <- l) yield i(a)
+    }
+
+    println(h21(21, l))
 
 
 }
